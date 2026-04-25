@@ -4,8 +4,8 @@ import joblib
 
 app = Flask(__name__)
 
-model = joblib.load("dropout_model.pkl")
-cluster_model = joblib.load("cluster_model.pkl")
+model = joblib.load("dropout_model1.pkl")
+cluster_model = joblib.load("cluster_model1.pkl")
 
 @app.route('/')
 def home():
